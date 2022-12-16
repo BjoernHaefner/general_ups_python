@@ -7,6 +7,9 @@ This code is a reimplementation of the following [paper](https://vision.in.tum.d
 
 We propose an efficient principled variational approach to uncalibrated PS under general illumination. To this end, the Lambertian reflectance model is approximated through a spherical harmonic expansion, which preserves the spatial invariance of the lighting. The joint recovery of shape, reflectance and illumination is then formulated as a single variational problem.
 
+## 0. MATLAB version
+Original MATLAB version is available [here](https://github.com/zhenzhangye/general_ups)
+
 ## 1. Requirements and Setup
 
 ### 1.1. CPU run
