@@ -101,7 +101,6 @@ def parser() -> argparse.Namespace:
                                help=f"Output directory")
 
     cli = parser.parse_args()
-    cli = parser.parse_args(['example1'])
     if cli.subcommand == 'example1':
         args = ['-g',
                 f'-o={os.path.join(output_default, "synthetic_joyfulyell_hippie")}',
