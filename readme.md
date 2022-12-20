@@ -1,3 +1,4 @@
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 # general_ups_python
 This code is a reimplementation of the following [paper](https://vision.in.tum.de/_media/spezial/bib/haefner2019iccv.pdf) in Python using Pytorch:
 
@@ -101,9 +102,7 @@ This is for example handy if
 - Optional: `gt_light` of shape: `Nx{4 or 9}xC`
 - Optional: `gt_albedo` of shape: `CxHxW`
 
-## 4. License
-general_ups is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
-
+## 4. Citation
 If you make use of the library in any form in a scientific publication, please refer to `https://github.com/Bjoernhaefner/general_ups_python` and cite the paper
 
 ```
